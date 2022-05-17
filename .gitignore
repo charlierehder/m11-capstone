@@ -1,2 +1,5 @@
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# Configs
+code/secrets.yaml

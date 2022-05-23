@@ -2,8 +2,6 @@
 
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import r2_score
 from xgboost import XGBRegressor
 import joblib
 
@@ -36,12 +34,10 @@ X = dataset[[           'MSPB_Baseline',         'MSPB_Performance',
                           '10_VC']]
 y = dataset[['Payment']]
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
 #CHANGE FILE PATH TO WHERE YOU HAVE THE MODEL SAVED
 model = joblib.load(r"C:\Users\theth\Documents\Gen10\M11\repo\code\xgboost_model.model")
 
-predictions = model.predict(X_test)
+predictions = model.predict(X)
 predict_df = pd.DataFrame(predictions)
 
-final_df = predict_df.insert(loc=1, value=y_test, column='Payment')
+predict_df.insert(loc=1, value=y, column='Payment')

@@ -40,21 +40,35 @@ Folder containing all code used in the process of making this project. Further d
 
 Folder containing dashboard files.
 
+  * **dashboard.pbix** - PowerBI finalized project dashboard.
+
+  * **dashboard_ml** - python script used to implement our ml model in PowerBI.
+
+  * **visualizations.pbix** - PowerBI visualizations to be used in the dashboard.
+
 ## [project-specifications](https://github.com/charlierehder/m11-capstone/tree/master/project-specifications)
 
 Folder containing the documentation and planning steps taken during the project.
+
+  * **Azure-SQL-ERD.png** - relational diagram outlining the structure of our SQL database.
+
+  * **Capstone Infrastructure Diagram.png** - diagram detailing the datapipline and processing that took place. 
+
+  * **CapstonePresentationSlides.pdf** - slide deck used in final project presentation.
+
+  * **DataPlatform.pdf/DataPlatform.png** - initial data platform sketches (not final)
+
+  * **ExecutiveSummary.pdf** - summary of project goals and desired outcomes.
 
   * **ExploratoryQuestions.pdf** - list of questions this project aims to answer.
 
   * **ProjectManagementPlan.pdf** - rough schedule of when particular aspects of the project were completed, by whom and the urgency of each task.
 
-  * **VisualizationsNapkinsAndFeedback.pdf** - rough outlines and feedback of initial visualization outlines.
+  * **ProjectTechnicalReport.pdf** - walkthrough of the process of creating the project, discusses findings and research done.
 
-  * **DashboardNapkinsAndFeedback.pdf** - feedback and finished dashboard screenshots, end result of initial visualization sketches.
+  * **napkin-drawing-feedback** - rough outlines and feedback of initial visualization outlines and dashboard sketches.
 
   * **RepeatableETLReport.pdf** - all cleaning and ETL done to the data gathered condensed into a list of steps, as well as further details about tools used.
-
-  * **CapstonePresentationSlides.pdf** - slides used in final presentation of this project.
 
 ## Data Sources
 

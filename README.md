@@ -56,8 +56,6 @@ Folder containing the documentation and planning steps taken during the project.
 
   * **CapstonePresentationSlides.pdf** - slide deck used in final project presentation.
 
-  * **DataPlatform.pdf/DataPlatform.png** - initial data platform sketches (not final)
-
   * **ExecutiveSummary.pdf** - summary of project goals and desired outcomes.
 
   * **ExploratoryQuestions.pdf** - list of questions this project aims to answer.

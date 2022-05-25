@@ -4,7 +4,7 @@
 
 This repository contains all of the documentation and code behind the concepts learned as a part of the February 2022 Data cohort in Genesis10's Dev10 program. In it we demonstrate a strong understanding of data literacy, data analysis and data engineering. More specifically, this project aims to present insights about healthcare data from the US Census Bureau and the Centers for Medicare and Medicaid (CMS); links to the data sources are included at the bottom of the readme. Additionally, we sought to create a machine learning model capable of accurately predicting the cost of hospitalizations based on the myriad scores and metrics provided by CMS.
 
-The content in this repository was created by Charlie Rehder, Alysia Halverson and Jakob Thunen. Flies in the repository include:
+The content in this repository was created by [Charlie Rehder](https://github.com/charlierehder), [Alysia Halverson](https://github.com/ahalverson1), and [Jakob Thunen](https://github.com/Jakob-T13). Flies in the repository include:
 
 ## [code](https://github.com/charlierehder/m11-capstone/tree/master/code)
 
